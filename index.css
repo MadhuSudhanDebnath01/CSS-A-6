@@ -1,0 +1,189 @@
+body{
+    background-image: url(./sahara.jpg);
+}
+.font{
+    font-size: 100px;
+  display: inline;
+}
+
+.item1{
+display: flex;
+align-items: center;
+gap: 30px;
+justify-content: flex-end;
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+.item2{
+   color: white;
+   margin-left: 120px;
+   margin-top: 200px;
+  box-sizing: border-box;
+ 
+}
+.item3{
+ display: grid;
+ grid-template-columns:200px 200px;
+ color: white;
+ gap: 30px;
+ margin-left: 100px;
+text-align: center;
+}
+.final{
+  display: flex;
+
+}
+
+.box1{
+background-image: url(./pic-1.png);
+background-repeat: no-repeat;
+background-size:100% 100%;
+border-radius: 20px;
+transition-duration: 2s;
+transition-property: all;
+}
+.box1:hover {
+transform: translatey(-15px)
+}
+.box2{
+ background-image: url(./pic-2\ \(1\).png);
+ background-repeat: no-repeat;
+background-size:100% 100%;
+border-radius: 20px;  
+ border-radius: 20px;
+ transition-duration: 2s;
+ transition-property: all;
+ }
+ .box2:hover {
+ transform: translatey(-15px);
+ }
+.box3{
+    background-image: url(./pic-3\ \(1\).png); 
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border-radius: 20px;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition-property: all;
+    }
+    .box3:hover {
+    transform: translatey(-15px);
+    }
+.box4{
+background-image: url(./pic-4\ \(1\).png);
+background-repeat: no-repeat;
+background-size:100% 100%;
+border-radius: 20px;
+border-radius: 20px;
+transition-duration: 2s;
+transition-property: all;
+}
+.box4:hover {
+transform: translatey(-15px);
+}
+.button{
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+   font-weight: bold;
+   border: 3px solid white;
+}
+
+
+
+
+@media screen and (max-width:856px){
+    .item1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: flex-end;
+        }
+        .font{
+            font-size: 50px;
+            display: inline;
+        }
+        a{
+           color: white;
+           text-decoration: none;
+        }
+        .item2{
+           color: white;
+           margin-left: 120px;
+           margin-top:0px;
+          box-sizing: border-box;
+        }
+        .item3{
+         display: grid;
+         grid-template-columns:400px;
+         height: 900px;
+         color: white;
+         gap: 30px;
+        text-align: center;
+        margin-top: 30px;
+        }
+        .final{
+          display: grid;
+          grid-template-columns: auto;
+        }
+        
+        .box1{
+        background-image: url(./pic-1.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        border-radius: 20px;
+        transition-duration: 2s;
+        transition-property: all;
+        }
+        .box1:hover {
+        transform: translatey(-15px)
+        }
+        .box2{
+         background-image: url(./pic-2\ \(1\).png);
+         background-repeat: no-repeat;
+        background-size:100% 100%;
+        border-radius: 20px;  
+         border-radius: 20px;
+         transition-duration: 2s;
+         transition-property: all;
+         }
+         .box2:hover {
+         transform: translatey(-15px);
+         }
+        .box3{
+            background-image: url(./pic-3\ \(1\).png); 
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            border-radius: 20px;
+            border-radius: 20px;
+            transition-duration: 2s;
+            transition-property: all;
+            }
+            .box3:hover {
+            transform: translatey(-15px);
+            }
+        .box4{
+        background-image: url(./pic-4\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        border-radius: 20px;
+        border-radius: 20px;
+        transition-duration: 2s;
+        transition-property: all;
+        }
+        .box4:hover {
+        transform: translatey(-15px);
+        }
+        .button{
+            height: 40px;
+            width: 200px;
+            border-radius: 25px;
+           font-weight: bold;
+           border: 3px solid white;
+        }
+        
+        
+        
+}
